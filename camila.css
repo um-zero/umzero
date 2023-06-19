@@ -1,0 +1,42 @@
+body{
+    background-color: #9EF8EE;
+}
+
+#a {
+    position: absolute;
+width: 1293px;
+height: 909px;
+left: 66px;
+top: 57px;
+
+background: rgba(52, 136, 136, 0.9);
+}
+
+h1{
+color: #9EF8EE;
+font-family: 'Times New Roman', Times, serif;
+position: absolute;
+width: 627px;
+height: 31px;
+left: 644px;
+top: 125px;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+display: flex;
+align-items: flex-end;
+text-transform: uppercase;
+text-decoration: underline;
+}
+
+#b {
+    position: absolute;
+width: 406px;
+height: 909px;
+left: 66px;
+top: 57px;
+background: #22BABB;
+
+
+}
