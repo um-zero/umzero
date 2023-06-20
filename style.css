@@ -1,0 +1,85 @@
+.nav{
+
+position: absolute;
+width: 100%;
+height: 241px;
+left: 0px;
+top: 0px;
+
+background: #212A3E;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.tex1{
+
+position: absolute;
+width: 600px;
+height: 77px;
+left: 365px;
+top: 82px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+
+color: #FFFFFF;
+}
+.tex2{
+
+    position: absolute;
+    width: 396px;
+    height: 44px;
+    left: 365px;
+    top: 159px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    
+    color: #9BA4B5;
+
+}
+
+.left{
+
+position: absolute;
+width: 389px;
+height: 1084px;
+left: -7px;
+top: 241px;
+
+background: #576CBC;
+}
+img{
+    position: absolute;
+    width: 307px;
+    height: 296px;
+    left: 34px;
+    top: 146px;
+}
+.retangulo1{
+    position: absolute;
+width: 318px;
+height: 56px;
+left: 33px;
+top: 601px;
+
+background: #F1F6F9;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 272px;
+}
+.rodape{
+    position: absolute;
+    width: 100%;
+    height: 65px;
+    left: -1px;
+    top: 1325px;
+    
+    background: #9BA4B5; 
+}
