@@ -1,60 +1,53 @@
+body{
+    max-width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background: #F1F6F9;
+}
+
 .nav{
-
-position: absolute;
-width: 100%;
-height: 241px;
-left: 0px;
-top: 0px;
-
-background: #212A3E;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+    position: absolute;
+    width: 100%;
+    height: 241px;
+    left: 0px;
+    top: 0px;
+    background: #212A3E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .tex1{
-
-position: absolute;
-width: 600px;
-height: 77px;
-left: 365px;
-top: 82px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 77px;
-
-color: #FFFFFF;
+    position: absolute;
+    width: 600px;
+    height: 77px;
+    left: 365px;
+    top: 82px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
 }
 .tex2{
-
     position: absolute;
     width: 396px;
     height: 44px;
     left: 365px;
     top: 159px;
-    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 44px;
     /* identical to box height */
-    
-    
     color: #9BA4B5;
-
 }
 
 .left{
-
-position: absolute;
-width: 389px;
-height: 1084px;
-left: -7px;
-top: 241px;
-
-background: #576CBC;
+    position: absolute;
+    width: 400px;
+    height: 2000px;
+    background: #576CBC;
 }
 img{
     position: absolute;
@@ -63,23 +56,117 @@ img{
     left: 34px;
     top: 146px;
 }
-.retangulo1{
+.container{
     position: absolute;
-width: 318px;
-height: 56px;
-left: 33px;
-top: 601px;
-
-background: #F1F6F9;
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 272px;
+    margin-left: 15px;
+    color: #212A3E;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 32px;
+    font-family: Inter;
+    text-align: center;
+}
+.retangulo-home{
+    position: absolute;
+    width: 318px;
+    height: 56px;
+    top: 798px;
+    background: #F1F6F9;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 272px;    
+}
+.retangulo-github{
+    position: absolute;
+    width: 318px;
+    height: 56px;
+    top: 945px;
+    background: #F1F6F9;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 272px;    
+}
+.retangulo-instagram{
+    position: absolute;
+    width: 318px;
+    height: 56px;
+    top: 1092px;
+    background: #F1F6F9;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 272px;    
+}
+.retangulo-email{
+    position: absolute;
+    width: 318px;
+    height: 56px;
+    top: 1239px;
+    background: #F1F6F9;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 272px;    
+}
+.casa{
+    width: 55px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    top: 800px;
+    margin-right: 500px;
+}
+.github{
+    width: 44px;
+    height: 46px;
+    flex-shrink: 0;
+    top: 950px;
+}
+.instagram{
+    width: 44px;
+    height: 46px;
+    flex-shrink: 0;
+    top: 1100px;
+}
+.email{
+    width: 44px;
+    height: 46px;
+    flex-shrink: 0;
+    top: 1245px;
 }
 .rodape{
     position: absolute;
     width: 100%;
     height: 65px;
     left: -1px;
-    top: 1325px;
-    
+    top: 2000px;
     background: #9BA4B5; 
+}
+h1{
+    position: absolute;
+    color: #FFF;
+    font-size: 64px;
+    font-family: Inter;
+    margin-left: 415px;
+    margin-top: 30px; 
+}
+h2{
+    position: absolute;
+    color: #9BA4B5;
+    font-size: 36px;
+    font-family: Inter;
+    margin-left: 415px;
+    margin-top: 100px; 
+}
+h3{
+    display: flex;
+    position: relative;
+    color: #212A3E;
+    font-size: 48px;
+    font-family: Inter;
+    margin-left: 500px;
+    margin-top: 300px; 
+}
+p{
+    display: flex;
+    position: relative;
+    color: #212A3E;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 300;
+    margin-left: -100px;
+    margin-top: 390px; 
 }
